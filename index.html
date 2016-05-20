@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        body { margin:0;
+            background-color: #DDCCE3;
+        }
+        form {
+            max-width: 1000px;
+            width: 80%;
+            margin: 40px auto;
+            background-color: #AC93B5;
+            padding: 20px;
+        }
+
+        textarea {
+            display: block;
+            padding: 20px;
+            width: 90%;
+            margin: 20px auto;
+            background-color: #D2E3CC;
+            color: #999;
+        }
+        textarea:first-of-type {
+            background-color: #E3D2CC;
+
+        }
+        input[type=button] {
+            display: block;
+            border: 1px solid #999;
+            background-color: #ED98CE;
+            color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            width: 50%;
+            max-width: 200px;
+            float: right;
+        }
+        hr {
+            clear: both;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+	<form>
+        <textarea id="pastedText"></textarea>
+        <input type="button" value="go">
+        <hr>
+        <textarea id="sameCase"></textarea>
+        <hr>
+        <textarea id="capCase"></textarea>
+    </form>  
+    <ul id="results">
+
+    </ul>  
+</body>	
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./bower_components/he/he.js"></script>
+<script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="./app.js"></script>
+</html>

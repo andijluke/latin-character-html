@@ -1,0 +1,12 @@
+{
+  "name": "latin-char-translate",
+  "version": "1.0.0",
+  "description": "copy paste fix up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server -p1234"
+  },
+  "author": "",
+  "license": "ISC"
+}

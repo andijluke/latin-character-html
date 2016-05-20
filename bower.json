@@ -1,0 +1,16 @@
+{
+  "name": "latin-char-translate",
+  "description": "copy paste fix up",
+  "main": "index.html",
+  "authors": [
+    "andijluke <andi.luke@swift.co>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "he": "^1.0.0",
+    "jquery": "^2.2.3",
+    "lodash": "^4.12.0"
+  }
+}
